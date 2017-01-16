@@ -1,0 +1,601 @@
+/* 
+    Created on : 11/01/2016, 9:43:39 PM
+    Author     : Steven Thompson
+*/
+
+/*Global Settings*/
+html,body {
+    height:100%;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+/*End Gobal*/
+
+/*Header layout*/
+#logo {
+    height: 100px;
+}
+
+header ul {
+    height:100px;
+    list-style-type: none;
+    display:table;
+    width:100%;
+}
+
+header ul li {
+    display: table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    transition: linear all 0.15s;
+}
+
+header ul li a:hover, header ul li a:active, header ul li a:focus{
+    text-decoration: none;
+
+}
+
+header ul li a:focus {
+    color:black;
+}
+
+header ul li a:hover {
+    color: #2fa1b5;
+    text-decoration: none;
+}
+
+nav ul li span {
+    color: #2fa1b5;
+}
+
+#topbar {
+   height: 15px;
+   background-color: #2fa1b5;
+}
+
+#carrousel {
+    height: 300px;
+}
+
+/*End header layout*/
+
+#whaticando h1 {
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+    
+#whaticando p {
+    font-size: 1.3em;
+    margin-bottom: 55px;
+}
+
+.whaticandoimages {
+    width: 100%;
+}
+
+.whaticandocontent {
+    margin-bottom: 40px;
+}
+
+.whaticandocontent h3 {
+    margin-bottom: 20px;
+}
+
+.whaticandocontent p {
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 1.1em;
+}
+
+.darkbg {
+    background-color: #d7d7d7;
+    margin-bottom: 40px;
+}
+
+#recent-projects h1 {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+#recent-projects p {
+    margin-bottom: 35px;
+}
+
+#recent-projects img {
+    margin-bottom: 25px;
+    opacity: 0.3;
+    transition: all linear 0.5s;
+}
+
+#recent-projects img:hover {
+    opacity: 1;
+}
+
+/*Start footer style*/
+footer {
+    height: 100px;
+    background-color: #504f4f;
+}
+
+footer p {
+    color: white;
+}
+
+.footerslash{
+    color: #2fa1b5;
+}
+
+#socialicons img {
+    width: 70px;
+    margin-top: 15px;
+}
+
+#connect {
+    padding-top: 25px;
+    height: 100px;
+    font-weight: bold;
+}
+
+#connect p {
+    color: #9d9c9c;
+    margin: 0px;
+}
+
+#footerinfo {
+    height: 100px;
+    padding-top: 25px;
+}
+
+#footerinfo p {
+    margin:0px;
+}
+
+#footerinfo p a {
+    color: white;
+    transition: linear all 0.15s;
+}
+
+#footerinfo p a:hover {
+    color: #2fa1b5;
+}
+
+#footerinfo p a:hover, #footerinfo p a:active, #footerinfo p a:focus{
+    text-decoration: none;
+}
+/*End footer style*/
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 3%;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
+    filter: alpha(opacity=50);
+    opacity: 0.3;
+}
+
+.carousel-indicators .active {
+    background-color: #30A0B6;
+}
+
+
+.carousel-indicators li {
+    border: 1px solid #30A0B6;
+} 
+.carousel-control.left {
+    background: none;
+}
+
+.carousel-control.right {
+    background: none;
+}
+
+.carousel-control {
+    color: #30A0B6;
+    opacity: 0.5;
+}
+
+.hideme {
+    opacity: 0;
+}
+
+.project-details {
+    height: 220px;
+    border: solid lightgray 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.overlay { background: black; display: inline-block; }
+.galimg { display: block; opacity: 0.7; transition: all 0.2s linear; width: 100%; height: 100%; }
+.galimg:hover { opacity: 1; }
+
+.project-gallery {
+    padding: 0px;
+    margin: 0px;
+}
+
+.gallery {
+    margin-bottom: 40px;
+}
+
+#project_contact {
+    margin-bottom: 30px;
+}
+
+#project_contactme {
+    padding-top: 10px;
+    color: #2e84af;
+}
+
+#thompson {
+    max-width: 325px;
+}
+
+.jumbotron {
+    padding: 0px;
+    margin: 0px;
+}
+
+#emailme input {
+    background-color:#2fa1b5; 
+    color: white;
+    font-size: 1.6em;
+}
+
+.doc_icon {
+    width: 35px;
+    opacity: 0.6;
+    margin-left: 10px;
+    padding-top: 12px;
+}
+
+.inlineheader h3 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.inlineheader p {
+    margin-top: 20px;
+}
+
+.inlineheader {
+    display: table;
+}
+
+#resume_container {
+    padding: 20px;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#resume_container h4 {
+    font-weight: bold;
+}
+
+.jobcontent {
+    margin-bottom: 30px;
+}
+
+.jobcontent p {
+    font-size: 1em;
+    padding: 0px;
+}
+
+p.jobdetails {
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.jobimage {
+    margin-top: 30px;
+}
+
+#resume_container h3 {
+    padding-top: 0px;
+    vertical-align: middle;
+}
+
+#grades {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#grades tr th {
+    padding: 5px;
+}
+
+#grades tr td {
+    padding:5px;
+}
+
+.website-images {
+    margin-top: 20px;
+}
+
+.topspacer {
+    height: 85px;
+}
+
+#project_breif_image {
+    height: 150px;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#techimages_container {
+    display: table;
+    width: 100%;
+}
+
+#techimages {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#mobilesocial div {
+    width: 25%;
+    float: left;
+}
+
+#project_header h1 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+/*Media queries to control style on different screen sizes*/
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .jumbotron p {
+        font-size: 1.3em;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 992px) {
+    body{font-size: 12px;}
+    #logo {height: 60px; display: block; margin-right: auto; margin-left: auto;}
+    header ul {height:60px;}
+    #footerinfo p {font-size: 1.2em;}
+    #socialicons img {width: 50px; margin-top: 20px;}
+    .whaticandoimages {max-width: 300px; float: none; }
+    .whaticandocontent {margin-bottom: 10px;}
+    .jumbotron p { font-size: 1.4em; }
+    #thompson { padding: 0px; }
+}
+    
+@media only screen and (max-width : 767px) {
+    #recent-projects img {max-width: 300px; float: none;}
+    footer {height:200px;}
+    #carrousel {height:500px;}
+    .galimg { display: block; opacity: 1; transition: all 0.2s linear; width: 100%; height: 100%; float: none; }
+    #socialicons {width: 100%;border: 1px solid red;}
+    #socialicons img {width: 75px;margin: 0px;}
+    #footerinfo {text-align: center;height: 60px;}
+    #topsection {position: fixed; z-index: 3; width: 100%; background-color: white;}
+    .jumbotron h1, .jumbotron p { text-align: center; }
+    .jumbotron p { font-size: 1.3em; }
+    
+    p.jobdetails {line-height: 20px;}
+    
+    .overlay {
+    display: block;
+    background: none;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#logo {
+    display: block;
+    width: 100%;
+    max-height: 55px;
+    max-width: 225px;
+}
+
+.project_info h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.project_info h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.project_info p {
+    padding-top: 0px;
+}
+
+.project-details {
+    height:auto;
+}
+
+.project-details div img {
+    margin-bottom: 20px;
+}
+
+#project_header h1 {
+    margin-bottom: 0px;
+}
+
+.carousel-indicators {display: none;}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .jumbotron p {
+        font-size: 1.5em;
+    }
+}
+
+.resume_text {
+    font-size: 1em;
+}
+
+#mobilemenu {
+    display: none; 
+}
+
+#mobilemenu ul {
+    width: 100%;
+    list-style: none;
+    display: block;
+    padding-top: 70px;
+    padding-left: 0px;
+}
+
+#mobilemenu ul li {
+    font-size: 3.2em;
+    vertical-align: middle;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#mobilemenu ul li a {
+    color: white;
+    transition: ease all 0.2s;
+    
+}
+
+#mobilemenu ul li a:hover {
+    text-decoration: none;
+    color: #2fa1b5;
+}
+
+#mobilemenu ul li {
+    border-bottom: dashed #2fa1b5 1px;
+}
+
+#firstmobitem {
+    border-top: dashed #2fa1b5 1px;
+}
+
+#mobilemenu img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#mobilemenubutton {
+cursor: pointer;    
+}
+
+.show {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 999999999999;
+    display: table;
+    opacity: 0.95;
+}
+
+#cross {
+    width: 35px;
+}
+
+#mobile_thompson {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border: 5px #2fa1b5 solid;
+    max-height: 200px;
+    box-shadow: 5px 10px 10px -5px rgba(0,0,0,0.5);
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-top: 4px;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    color:white;
+    font-size: 1.2em;
+}
+
+.carousel-caption a {
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-caption a:hover {
+    color: #2fa1b5;
+}
+
+#footerinfo p .activelink a {
+    color: #2fa1b5;
+}
+
+.technology img {
+    opacity: 0.4;
+    transition: all ease 0.2s;
+}
+
+.technology img:hover {
+    opacity: 1;
+}
+
+.technology span img {
+    padding-top: 18px;
+}
+
+.project-details h3 {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.img-thumbnail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cross_menu {
+    width: 45px; 
+    padding: 0px; 
+    position: absolute; 
+    right: 5px; top: 0px;
+}
+
+.project_info p {
+    margin-top: 30px;
+}
+
+.project_info p span {
+    font-weight: bold;
+}
+
+.project_info ul li{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+
+#technical_info {
+    background-color: white;
+}
